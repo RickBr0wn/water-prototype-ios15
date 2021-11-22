@@ -51,6 +51,11 @@
 		1178EFD62731F3170038A144 /* water-prototype */ = {
 			isa = PBXGroup;
 			children = (
+				11D76BF4274C126000E40549 /* Services */,
+				11D76BF3274C125800E40549 /* Extensions */,
+				11D76BF2274C125000E40549 /* Models */,
+				11D76BF1274C124B00E40549 /* ViewModels */,
+				11D76BF0274C124500E40549 /* Views */,
 				1178EFD72731F3170038A144 /* water_prototypeApp.swift */,
 				1178EFD92731F3170038A144 /* ContentView.swift */,
 				1178EFDB2731F3190038A144 /* Assets.xcassets */,
@@ -65,6 +70,41 @@
 				1178EFDE2731F3190038A144 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11D76BF0274C124500E40549 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11D76BF1274C124B00E40549 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		11D76BF2274C125000E40549 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		11D76BF3274C125800E40549 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11D76BF4274C126000E40549 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
