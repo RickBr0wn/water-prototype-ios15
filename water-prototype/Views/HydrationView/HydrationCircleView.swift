@@ -4,7 +4,6 @@
 //
 //  Created by Rick Brown on 01/12/2021.
 //
-
 import SwiftUI
 
 struct HydrationCircleView: View {
