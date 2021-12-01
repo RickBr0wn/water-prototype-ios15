@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1144A38F2757B30400B12C54 /* WaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1144A38E2757B30400B12C54 /* WaterViewModel.swift */; };
+		1144A3912757B33A00B12C54 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1144A3902757B33A00B12C54 /* Drink.swift */; };
+		1144A3932757B7A700B12C54 /* PreviewProvider_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1144A3922757B7A700B12C54 /* PreviewProvider_.swift */; };
+		1144A3952757BB5100B12C54 /* HydrationCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1144A3942757BB5100B12C54 /* HydrationCircleView.swift */; };
+		1144A3972757C0B300B12C54 /* HydrationDrinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1144A3962757C0B300B12C54 /* HydrationDrinksView.swift */; };
+		1144A3992757C32600B12C54 /* HydrationDrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1144A3982757C32600B12C54 /* HydrationDrinkView.swift */; };
 		1178EFD82731F3170038A144 /* water_prototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178EFD72731F3170038A144 /* water_prototypeApp.swift */; };
 		1178EFDA2731F3170038A144 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1178EFD92731F3170038A144 /* ContentView.swift */; };
 		1178EFDC2731F3190038A144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1178EFDB2731F3190038A144 /* Assets.xcassets */; };
 		1178EFDF2731F3190038A144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1178EFDE2731F3190038A144 /* Preview Assets.xcassets */; };
+		11D76BF6274C13DC00E40549 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D76BF5274C13DC00E40549 /* TabBarItem.swift */; };
+		11D76BF8274C141600E40549 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D76BF7274C141600E40549 /* TabBarItemsPreferenceKey.swift */; };
+		11D76BFA274C143F00E40549 /* TabBarInnerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D76BF9274C143F00E40549 /* TabBarInnerContainerView.swift */; };
+		11D76BFC274C145E00E40549 /* TabBarRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D76BFB274C145E00E40549 /* TabBarRowView.swift */; };
+		11D76BFE274C14AC00E40549 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D76BFD274C14AC00E40549 /* TabBarView.swift */; };
+		11D76C00274D1A5000E40549 /* Color_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D76BFF274D1A5000E40549 /* Color_.swift */; };
+		11D76C02274D1FED00E40549 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D76C01274D1FED00E40549 /* WaterView.swift */; };
+		11D76C04274D1FFB00E40549 /* HydrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D76C03274D1FFB00E40549 /* HydrationView.swift */; };
+		11D76C06274D200B00E40549 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D76C05274D200B00E40549 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1144A38E2757B30400B12C54 /* WaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WaterViewModel.swift; path = "water-prototype/Services/WaterViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		1144A3902757B33A00B12C54 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Drink.swift; path = "water-prototype/Services/Drink.swift"; sourceTree = SOURCE_ROOT; };
+		1144A3922757B7A700B12C54 /* PreviewProvider_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PreviewProvider_.swift; path = "water-prototype/Services/PreviewProvider_.swift"; sourceTree = SOURCE_ROOT; };
+		1144A3942757BB5100B12C54 /* HydrationCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationCircleView.swift; path = "water-prototype/Services/HydrationCircleView.swift"; sourceTree = SOURCE_ROOT; };
+		1144A3962757C0B300B12C54 /* HydrationDrinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationDrinksView.swift; path = "water-prototype/Services/HydrationDrinksView.swift"; sourceTree = SOURCE_ROOT; };
+		1144A3982757C32600B12C54 /* HydrationDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationDrinkView.swift; path = "water-prototype/Services/HydrationDrinkView.swift"; sourceTree = SOURCE_ROOT; };
 		1178EFD42731F3170038A144 /* water-prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "water-prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1178EFD72731F3170038A144 /* water_prototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water_prototypeApp.swift; sourceTree = "<group>"; };
 		1178EFD92731F3170038A144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1178EFDB2731F3190038A144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1178EFDE2731F3190038A144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11D76BF5274C13DC00E40549 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarItem.swift; path = "water-prototype/TabBarItem.swift"; sourceTree = SOURCE_ROOT; };
+		11D76BF7274C141600E40549 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
+		11D76BF9274C143F00E40549 /* TabBarInnerContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarInnerContainerView.swift; path = "water-prototype/Services/TabBarInnerContainerView.swift"; sourceTree = SOURCE_ROOT; };
+		11D76BFB274C145E00E40549 /* TabBarRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarRowView.swift; path = "water-prototype/Services/TabBarRowView.swift"; sourceTree = SOURCE_ROOT; };
+		11D76BFD274C14AC00E40549 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarView.swift; path = "water-prototype/Services/TabBarView.swift"; sourceTree = SOURCE_ROOT; };
+		11D76BFF274D1A5000E40549 /* Color_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Color_.swift; path = "water-prototype/Services/Color_.swift"; sourceTree = SOURCE_ROOT; };
+		11D76C01274D1FED00E40549 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WaterView.swift; path = "water-prototype/Services/WaterView.swift"; sourceTree = SOURCE_ROOT; };
+		11D76C03274D1FFB00E40549 /* HydrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationView.swift; path = "water-prototype/Services/HydrationView.swift"; sourceTree = SOURCE_ROOT; };
+		11D76C05274D200B00E40549 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoryView.swift; path = "water-prototype/Services/HistoryView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +105,15 @@
 		11D76BF0274C124500E40549 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				11D76BF9274C143F00E40549 /* TabBarInnerContainerView.swift */,
+				11D76BFB274C145E00E40549 /* TabBarRowView.swift */,
+				11D76BFD274C14AC00E40549 /* TabBarView.swift */,
+				11D76C05274D200B00E40549 /* HistoryView.swift */,
+				11D76C03274D1FFB00E40549 /* HydrationView.swift */,
+				1144A3962757C0B300B12C54 /* HydrationDrinksView.swift */,
+				1144A3982757C32600B12C54 /* HydrationDrinkView.swift */,
+				1144A3942757BB5100B12C54 /* HydrationCircleView.swift */,
+				11D76C01274D1FED00E40549 /* WaterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -82,6 +121,7 @@
 		11D76BF1274C124B00E40549 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1144A38E2757B30400B12C54 /* WaterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -89,6 +129,8 @@
 		11D76BF2274C125000E40549 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				11D76BF5274C13DC00E40549 /* TabBarItem.swift */,
+				1144A3902757B33A00B12C54 /* Drink.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -96,6 +138,8 @@
 		11D76BF3274C125800E40549 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				11D76BFF274D1A5000E40549 /* Color_.swift */,
+				1144A3922757B7A700B12C54 /* PreviewProvider_.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -103,6 +147,7 @@
 		11D76BF4274C126000E40549 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				11D76BF7274C141600E40549 /* TabBarItemsPreferenceKey.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -177,8 +222,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D76BF6274C13DC00E40549 /* TabBarItem.swift in Sources */,
 				1178EFDA2731F3170038A144 /* ContentView.swift in Sources */,
+				11D76BFE274C14AC00E40549 /* TabBarView.swift in Sources */,
 				1178EFD82731F3170038A144 /* water_prototypeApp.swift in Sources */,
+				11D76C02274D1FED00E40549 /* WaterView.swift in Sources */,
+				1144A3932757B7A700B12C54 /* PreviewProvider_.swift in Sources */,
+				11D76C06274D200B00E40549 /* HistoryView.swift in Sources */,
+				1144A38F2757B30400B12C54 /* WaterViewModel.swift in Sources */,
+				1144A3952757BB5100B12C54 /* HydrationCircleView.swift in Sources */,
+				1144A3912757B33A00B12C54 /* Drink.swift in Sources */,
+				11D76BFC274C145E00E40549 /* TabBarRowView.swift in Sources */,
+				1144A3992757C32600B12C54 /* HydrationDrinkView.swift in Sources */,
+				11D76C00274D1A5000E40549 /* Color_.swift in Sources */,
+				1144A3972757C0B300B12C54 /* HydrationDrinksView.swift in Sources */,
+				11D76C04274D1FFB00E40549 /* HydrationView.swift in Sources */,
+				11D76BF8274C141600E40549 /* TabBarItemsPreferenceKey.swift in Sources */,
+				11D76BFA274C143F00E40549 /* TabBarInnerContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
