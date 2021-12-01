@@ -7,15 +7,19 @@
 
 import SwiftUI
 
+/*
+ https://dribbble.com/shots/15400465-Water-Drinking-Reminder-App
+ */
 struct ContentView: View {
+  @ObservedObject var vm: WaterViewModel
+  
   var body: some View {
-    Text("Hello, world!")
-      .padding()
+    TabBarView(vm: vm)
   }
 }
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    ContentView(vm: dev.vm)
   }
 }

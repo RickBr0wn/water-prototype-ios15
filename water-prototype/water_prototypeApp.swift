@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct water_prototypeApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  @StateObject private var vm = WaterViewModel()
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView(vm: vm)
     }
+  }
 }
