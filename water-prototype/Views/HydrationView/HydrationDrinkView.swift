@@ -9,9 +9,10 @@ import SwiftUI
 
 struct HydrationDrinkView: View {
   let drink: Drink
+  let width: CGFloat = UIScreen.main.bounds.size.width / 2
   
   var body: some View {
-    VStack {
+    HStack {
       Image(systemName: drink.icon)
         .font(.title)
       

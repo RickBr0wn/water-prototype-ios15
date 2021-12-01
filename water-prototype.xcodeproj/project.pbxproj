@@ -32,9 +32,9 @@
 		1144A38E2757B30400B12C54 /* WaterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WaterViewModel.swift; path = "water-prototype/Services/WaterViewModel.swift"; sourceTree = SOURCE_ROOT; };
 		1144A3902757B33A00B12C54 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Drink.swift; path = "water-prototype/Services/Drink.swift"; sourceTree = SOURCE_ROOT; };
 		1144A3922757B7A700B12C54 /* PreviewProvider_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PreviewProvider_.swift; path = "water-prototype/Services/PreviewProvider_.swift"; sourceTree = SOURCE_ROOT; };
-		1144A3942757BB5100B12C54 /* HydrationCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationCircleView.swift; path = "water-prototype/Services/HydrationCircleView.swift"; sourceTree = SOURCE_ROOT; };
-		1144A3962757C0B300B12C54 /* HydrationDrinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationDrinksView.swift; path = "water-prototype/Services/HydrationDrinksView.swift"; sourceTree = SOURCE_ROOT; };
-		1144A3982757C32600B12C54 /* HydrationDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationDrinkView.swift; path = "water-prototype/Services/HydrationDrinkView.swift"; sourceTree = SOURCE_ROOT; };
+		1144A3942757BB5100B12C54 /* HydrationCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationCircleView.swift; path = "water-prototype/Views/New Group/HydrationCircleView.swift"; sourceTree = SOURCE_ROOT; };
+		1144A3962757C0B300B12C54 /* HydrationDrinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationDrinksView.swift; path = "water-prototype/Views/New Group/HydrationDrinksView.swift"; sourceTree = SOURCE_ROOT; };
+		1144A3982757C32600B12C54 /* HydrationDrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationDrinkView.swift; path = "water-prototype/Views/New Group/HydrationDrinkView.swift"; sourceTree = SOURCE_ROOT; };
 		1178EFD42731F3170038A144 /* water-prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "water-prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1178EFD72731F3170038A144 /* water_prototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = water_prototypeApp.swift; sourceTree = "<group>"; };
 		1178EFD92731F3170038A144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		11D76BFD274C14AC00E40549 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarView.swift; path = "water-prototype/Services/TabBarView.swift"; sourceTree = SOURCE_ROOT; };
 		11D76BFF274D1A5000E40549 /* Color_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Color_.swift; path = "water-prototype/Services/Color_.swift"; sourceTree = SOURCE_ROOT; };
 		11D76C01274D1FED00E40549 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WaterView.swift; path = "water-prototype/Services/WaterView.swift"; sourceTree = SOURCE_ROOT; };
-		11D76C03274D1FFB00E40549 /* HydrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationView.swift; path = "water-prototype/Services/HydrationView.swift"; sourceTree = SOURCE_ROOT; };
+		11D76C03274D1FFB00E40549 /* HydrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HydrationView.swift; path = "water-prototype/Views/New Group/HydrationView.swift"; sourceTree = SOURCE_ROOT; };
 		11D76C05274D200B00E40549 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoryView.swift; path = "water-prototype/Services/HistoryView.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -62,6 +62,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1144A39A2757D01C00B12C54 /* HydrationView */ = {
+			isa = PBXGroup;
+			children = (
+				11D76C03274D1FFB00E40549 /* HydrationView.swift */,
+				1144A3962757C0B300B12C54 /* HydrationDrinksView.swift */,
+				1144A3982757C32600B12C54 /* HydrationDrinkView.swift */,
+				1144A3942757BB5100B12C54 /* HydrationCircleView.swift */,
+			);
+			path = HydrationView;
+			sourceTree = "<group>";
+		};
 		1178EFCB2731F3170038A144 = {
 			isa = PBXGroup;
 			children = (
@@ -109,10 +120,7 @@
 				11D76BFB274C145E00E40549 /* TabBarRowView.swift */,
 				11D76BFD274C14AC00E40549 /* TabBarView.swift */,
 				11D76C05274D200B00E40549 /* HistoryView.swift */,
-				11D76C03274D1FFB00E40549 /* HydrationView.swift */,
-				1144A3962757C0B300B12C54 /* HydrationDrinksView.swift */,
-				1144A3982757C32600B12C54 /* HydrationDrinkView.swift */,
-				1144A3942757BB5100B12C54 /* HydrationCircleView.swift */,
+				1144A39A2757D01C00B12C54 /* HydrationView */,
 				11D76C01274D1FED00E40549 /* WaterView.swift */,
 			);
 			path = Views;

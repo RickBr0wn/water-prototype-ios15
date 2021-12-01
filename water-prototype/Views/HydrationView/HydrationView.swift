@@ -21,12 +21,9 @@ struct HydrationView: View {
         HydrationCircleView(hydration: vm.currentHydrationAmount)
           .frame(width: UIScreen.main.bounds.size.width * 0.60)
         
-        
         HydrationDrinksView(drinks: vm.drinks)
 
-        Spacer()
-        
-        Color.white.frame(height: 100)
+        Spacer(minLength: 150)
       }
   }
 }
